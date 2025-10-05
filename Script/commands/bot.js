@@ -88,15 +88,15 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️- ওয়ালাইকুমুস-সালাম-!!🖤", threadID);
    };
 
-   if ((event.body.toLowerCase() == "সালা আমি তোর বস সানি") || (event.body.toLowerCase() == "sala ami ullas") || (event.body.toLowerCase() == "cup sala ami ullash") || (event.body.toLowerCase() == "madari")) {
+   if ((event.body.toLowerCase() == "সালা আমি তোর বস সানি") || (event.body.toLowerCase() == "তোর বস সানি") || (event.body.toLowerCase() == "cup sala ami ullash") || (event.body.toLowerCase() == "madari")) {
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@কাজেরবেডি") || (event.body.toLowerCase() == "@Farhana Ontora ")) {
+   if ((event.body.toLowerCase() == "@কাজেরবেডি") || (event.body.toLowerCase() == "@kaj ar badi ")) {
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস জিয়ার এর বউ এর আইড়ি😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "sani") || (event.body.toLowerCase() == "arohi")) {
+  if ((event.body.toLowerCase() == "sani") || (event.body.toLowerCase() == "সানি")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস সানির এর এর নাম..!😠🥰⛏️", threadID);
    };
   
@@ -104,7 +104,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস সানি এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "লামিয়া") || (event.body.toLowerCase() == "farhana")) {
+  if ((event.body.toLowerCase() == "লামিয়া") || (event.body.toLowerCase() == "লামিয়া")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস সানি এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
@@ -132,11 +132,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️MY NAME IS °_>Tanha আমার বাসা আমার জামাই সানির মনে আমি আমার জামাই সানি কে পড়ি", threadID);
    };
 
-   if ((event.body.toLowerCase() == "BOT ER BACCHA") || (event.body.toLowerCase() == "Bot er bacca")) {
+   if ((event.body.toLowerCase() == "BOT ER BACCHA") || (event.body.toLowerCase() == "বট এর বাচ্চা")) {
      return api.sendMessage("️আমার বাচ্চা তো তোমার বয়ফ্রেন্ড এর পেটে..!!🌚⛏️🌶️ ", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Pic de") || (event.body.toLowerCase() == "pic daw")) {
+   if ((event.body.toLowerCase() == "Pic de") || (event.body.toLowerCase() == "পিক দেও")) {
      return api.sendMessage("️এন থেকে সর দুরে গিয়া মর আর না হলে ওটা কেটে দিব😒", threadID);
    };
 
@@ -144,7 +144,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Kiss Randi Ka Name Le Ke Mood Khrab Kr Diya.🙄 Dubara Naam Mat Lena Iska", threadID);
    };
 
-   if ((event.body.toLowerCase() == "cudi") || (event.body.toLowerCase() == "tor nanire xudi")) {
+   if ((event.body.toLowerCase() == "cudi") || (event.body.toLowerCase() == "তোর বউ আমার")) {
      return api.sendMessage("️এত চোদা চুদি করস কেনো দেখা যাবে বাসর-রাতে-তুই-কতো পারিস,তোর মায়ের ওখানে ফাঁক করে সামার ভেতর আবার তোরে ঢুকায় দিব..!🥱🌝🌚⛏️🌶️ ", threadID);
    };
 
