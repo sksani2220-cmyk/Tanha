@@ -209,21 +209,3 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   };
 
 }
-# খুব সরল ChatGPT-স্টাইল ডেমো
-def chatbot(user_input):
-    user_input = user_input.lower()
-
-    if "hello" in user_input or "hi" in user_input:
-        return "হাই! কেমন আছো?"
-    elif "তুমি কে" in user_input:
-        return "আমি এক এআই চ্যাটবট, তোমাকে সাহায্য করার জন্য তৈরি 😊"
-    elif "ভালো" in user_input:
-        return "সেটা দারুন শুনতে!"
-    else:
-        return "এই বিষয়ে আমার শেখা কম, কিন্তু আমি চেষ্টা করতে পারি!"
-
-# রান করো:
-while True:
-    text = input("তুমি: ")
-    print("বট:", chatbot(text))
-module.exports.run = function({ api, event, client, __GLOBAL }) { }
